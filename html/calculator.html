@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script  defer src="../js/calculator.js"></script>
+</head>
+<body>
+    <div>
+        <script  src="../js/navbar.js"></script>
+    </div>
+    <div class="exercise1">
+        <div>
+            <input type="text" id="num">
+            <button id="button">* 10</button>
+            <div class="result1" id="result1">result:</div></div>
+        <div>
+            <input type="text" id="price">
+            <button id="tax">TAX</button>
+            <div class="result2" id="result2">result:</div></div>
+        </div>
+    <div class="calculator" id="calculator">
+        <h2>calculator 1:</h2>
+        <div class="exercise">
+            <input type="text" id="additionNumber1"><span class="operation">+</span>
+            <input type="text" id="additionNumber2"><button  id="addition">=</button><span id="additionSolution"></span>
+        </div>
+        <div class="exercise">
+            <input type="text" id="lessNumber1"><span class="operation">-</span>
+            <input type="text" id="lessNumber2"><button id="less">=</button><span id="lessSolution"></span>
+        </div>
+        <div class="exercise">
+            <input type="text" id="multiplyingNumber1"><span class="operation">*</span>
+            <input type="text" id="multiplyingNumber2"><button id="multiplying">=</button><span id=multiplyingSolution></span>
+        </div>
+        <div class="exercise">
+            <input type="text" id="divisionNumber1"><span class="operation">/</span>
+            <input type="text" id="divisionNumber2"><button id="division">=</button><span id="divisionSolution"></span>
+        </div>       
+    </div>
+    <div class="calculator2" id="calculator2">
+        <h2>calculator 2:</h2>
+        <div class="exercise2">
+            <input type="text" id="number1">
+            <select name="operator" id="operator">
+                <option value="addition">+</option>
+                <option value="less">-</option>
+                <option value="multiplying">*</option>
+                <option value="division">/</option>
+            </select>
+            <input type="text" id="number2">
+            <button id="solution">=</button>
+            <span id="exerciseSolution"></span>
+        </div>
+
+    </div>  
+    
+</body>
+</html>
